@@ -1,0 +1,36 @@
+.list
+{
+  color:white;
+  width:480px;
+  background-color: #c574ff;
+  height: 50px;
+  margin:20px auto;
+  border-radius: 10px;  
+  
+}
+.list p{
+    padding:10px;
+    position: relative;
+    font-size: 28px;
+    
+}
+.list p span{
+  position:absolute;
+  right: 10px;
+  cursor: pointer;
+}
+.faicons
+{
+  margin:0px 5px;
+  font-size: 25px;
+}
+@media(max-width:500px) {
+  .list{
+    width:300px;
+  }
+}
+@media(max-width:1500px) {
+  .list{
+    width:600px;
+  }
+}
